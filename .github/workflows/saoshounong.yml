@@ -1,25 +1,22 @@
 name: saoshounong
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 2/6 * * *'
-
-jobs:  # 20163
+    - cron: '54 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: saoshounong
         env:
-          h181: ${{ secrets.h181 }}
+          ijuxf56891: ${{ secrets.ijuxf56891 }}
         run: |
-          echo $h181 | jq -r .ynl584 | /bin/bash
-          echo $pm495 | jq -r .j6723 | /bin/bash
-          echo $p41 | jq -r .du10 | /bin/bash
-          echo $rk33 | jq -r .lo7611 | /bin/bash
-          echo $wj483 | jq -r .j5 | /bin/bash
-          echo $jsr8 | jq -r .yupt4 | /bin/bash
-          echo $ybgqh4988 | jq -r .af30814 | /bin/bash
-          echo $avbqj6 | jq -r .f2 | /bin/bash
+          echo $ijuxf56891 | jq -r .blb56007 | /bin/bash
+          echo $ntlxj1 | jq -r .jl3 | /bin/bash
+          echo $n9 | jq -r .ahh84 | /bin/bash
+          echo $it59 | jq -r .slwpe37805 | /bin/bash
+          echo $h81 | jq -r .vnaia88 | /bin/bash
+          echo $tug06 | jq -r .ydzq2444 | /bin/bash
 
